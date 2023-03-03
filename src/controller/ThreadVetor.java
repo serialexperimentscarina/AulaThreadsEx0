@@ -19,6 +19,7 @@ public class ThreadVetor extends Thread{
 		}
 	}
 
+	// Percorre o vetor utilizando estrutura for e conta o tempo levado.
 	private void par() {
 		double tempoInicial = System.nanoTime();
 		long soma = 0;
@@ -33,6 +34,7 @@ public class ThreadVetor extends Thread{
 		System.out.println("Tempo para percorrer vetor com for: " + tempoTotal + "s.");
 	}
 	
+	// Percorre o vetor utilizando estrutura forEach e conta o tempo levado.
 	private void impar() {
 		double tempoInicial = System.nanoTime();
 		long soma = 0;
