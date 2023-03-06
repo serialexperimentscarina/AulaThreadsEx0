@@ -8,7 +8,7 @@ public class Principal {
 		int[] vet = new int[1000];
 		
 		for (int i = 0; i < 1000; i++) {
-			vet[i] = (int) (Math.random() * 101);
+			vet[i] = (int) (Math.random() * 100) + 1;
 		}
 		
 		Thread threadVet1 = new ThreadVetor(1, vet);
